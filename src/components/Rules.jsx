@@ -12,14 +12,14 @@ const Rules = ({ onClose }) => {
           <button onClick={onClose}>
             <img
               className="lg:relative md:relative sm:relative absolute bottom-[15%] right-[50%] cursor-pointer"
-              src="src/assets/icon-close.svg"
+              src="/assets/icon-close.svg"
               alt="close"
             />
           </button>
         </div>
 
         <div className="flex items-center justify-center">
-          <img src="src/assets/image-rules.svg" alt="rules" />
+          <img src="/assets/image-rules.svg" alt="rules" />
         </div>
       </div>
     </div>

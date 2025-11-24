@@ -133,17 +133,17 @@ const TOKEN_CONFIG = {
   paper: {
     outerClasses:
       "h-32 w-32 md:h-40 md:w-40 bg-gradient-to-b from-[hsl(230,89%,65%)] to-[hsl(229,64%,46%)] shadow-[0_8px_0_hsla(229,64%,46%,0.7)]",
-    iconSrc: "src/assets/icon-paper.svg",
+    iconSrc: "/assets/icon-paper.svg",
   },
   scissors: {
     outerClasses:
       "h-32 w-32 md:h-40 md:w-40 bg-gradient-to-b from-[hsl(39,89%,49%)] to-[hsl(28,76%,44%)] shadow-[0_8px_0_hsla(28,76%,44%,0.7)]",
-    iconSrc: "src/assets/icon-scissors.svg",
+    iconSrc: "/assets/icon-scissors.svg",
   },
   rock: {
     outerClasses:
       "h-32 w-32 md:h-40 md:w-40 bg-gradient-to-b from-[hsl(349,71%,52%)] to-[hsl(347,75%,35%)] shadow-[0_8px_0_hsla(347,75%,35%)]",
-    iconSrc: "src/assets/icon-rock.svg",
+    iconSrc: "/assets/icon-rock.svg",
   },
 };
 
