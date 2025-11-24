@@ -3,7 +3,7 @@ import React from 'react'
 const Main = ({ onPick }) => {
     return (
         <div>
-            <img className='relative w-[280px] h-[220px] lg:w-[320px] lg:h-[280px] md:w-[320px] md:h-[280px] sm:w-[320px] sm:h-[280px]' src="src\assets\bg-triangle.svg" alt="triangle" />
+            <img className='relative w-[280px] h-[220px] lg:w-[320px] lg:h-[280px] md:w-[320px] md:h-[280px] sm:w-[320px] sm:h-[280px]' src="/assets/bg-triangle.svg" alt="triangle" />
 
             <div className='absolute lg:top-[290px] md:top-[27%] sm:top-[27%] top-[250px] flex items-center md:gap-10 sm:gap-10 gap-13'>
                 <button onClick={() => onPick("paper")} className="hover:scale-105 duration-300 cursor-pointer lg:translate-x-[-45px] md:translate-x-[-45px] sm:translate-x-[-45px] -translate-x-2.5 flex items-center justify-center lg:h-42 lg:w-42 md:h-42 md:w-42 sm:h-42 sm:w-42 w-30 h-30 rounded-full bg-gradient-to-b from-[hsl(230,89%,65%)] to-[hsl(229,64%,46%)] shadow-[0_8px_0_hsla(229,64%,46%,0.7)]">
