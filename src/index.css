@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+:root {
+    /* Colors */
+
+    /* Primary */
+
+--Gold-500: hsl(39, 89%, 49%);
+--Gold-600: hsl(28, 76%, 44%);
+--Blue-500: hsl(230, 89%, 62%);
+--Blue-700: hsl(229, 64%, 46%);
+--Red-600: hsl(349, 71%, 52%);
+--Red-800: hsl(347, 75%, 35%);
+--Purple-600: hsl(261, 73%, 60%);
+--Purple-700: hsl(261, 51%, 44%);
+--Light-blue-400: hsl(189, 59%, 53%);
+--Light-blue-500: hsl(194, 58%, 42%);
+
+    /* Neutral */
+
+--Navy-900: hsl(229, 25%, 31%);
+--Blue-700: hsl(229, 64%, 46%);
+--Gray-600: hsl(246, 11%, 37%);
+
+}
+
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
